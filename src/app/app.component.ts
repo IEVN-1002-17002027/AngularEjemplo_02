@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularEjemplo_02';
+
+  dupliccarNumero(n:number):number{
+    return n * 2;
+  }
+  pelicula={
+    titulo:'Peli  Random',
+    fechaLanzamiento:new Date(),
+    precio:1827
+  }
 }
+
+
