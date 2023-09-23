@@ -26,7 +26,6 @@ export class OperasBasComponent {
       case 'multi':
         this.resultado = parseInt(this.num1) * parseInt (this.num2);
         break;
-
     }
   }
   }
