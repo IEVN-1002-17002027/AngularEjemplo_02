@@ -7,4 +7,5 @@ export interface Iproducto {
         "Marca":string,
         "Color":string,
         "imagenUrl":string
-}
+    }
+    
